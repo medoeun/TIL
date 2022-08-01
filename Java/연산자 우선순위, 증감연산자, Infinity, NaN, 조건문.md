@@ -6,7 +6,7 @@ assignment operator =을 기준으로,
 4. 대입 연산자는 오른쪽에서부터 왼쪽으로 연산
 
 ### 증감 연산자
-**전위연산** ++a , --a : 먼저 +-1 후 연산
+**전위연산** ++a , --a : 먼저 +-1 후 연산 </br>
 **후위연산** a++, a--  : 연산이 마무리 된 후 +-1
 
 ```java
@@ -306,9 +306,11 @@ public class SubtractQuiz {
 요구되는 바가 range가 아니라 등급이 정해진 경우(주사위, 달력, 회사 직급 등)에는 switch문을 이용해 보다 간단히 표현할 수 있다.</br>
 
 **switch문에서 사용 가능한 data type**
+```
 + 정수형: byte, char, short, int, long
-+ String
-*float, double은 사용 불가 - 오차*
++ String </br>
+* float, double은 사용 불가 - 오차 *
+```
 
 ```java
 	public static void main(String[] args) {
