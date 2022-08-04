@@ -320,9 +320,9 @@ public class StringBasic9 {
 <a href='https://ifh.cc/v-xS16Lq' target='_blank'><img src='https://ifh.cc/g/xS16Lq.png' border='0'></a>
 
 <a href='https://ifh.cc/v-fFA9JV' target='_blank'><img src='https://ifh.cc/g/fFA9JV.png' border='0'></a>
+</br> 
 
-
-**method 사용 효과**	
+### method 사용 효과	
 	- 전체 소스코드 양을 대폭 줄이고, 프로그램 내 중복 코드 덩어리를 제거할 수 있다.
 	- 중복되는 코드 덩어리를 수정할 경우, 메소드 내부에서만 수정하면 되어서 전체 코딩 속도 향상 가능
 	- 한번 코딩해놓으면, 다른 사람들에게 공유 가능
