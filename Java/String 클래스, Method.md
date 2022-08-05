@@ -141,8 +141,9 @@ s2 = banana
 s3 = kiwi
 ```
 
-#### \+) Escape Character
-\***line feed(LF, \n)** - 1줄 띄기, New Line, 
+#### *\+) Escape Character*
+\***line feed(LF, \n)** - 1줄 띄기, New Line
+
 \***carriage return(CR, \r)** - 커서를 가장 앞으로 옮기는 동작. 디스플레이에서는 거의 의미가 없는 것이 맞으나, window에서는 Enter를 누르면 cr, lf가 모두 입력되기 때문에 예를 들어 리눅스에서의 줄바꿈(only LF)은 Enter로 인식하지 않는다.
 </br>
 
@@ -316,15 +317,17 @@ public class StringBasic9 {
 ## 함수(function) - Method
 프로그램에서 여러번 반복 사용되는 특정 코드 덩어리를 별도의 method로 정의하고 선언된 메소드 이름을 통해 사용한다. 
 
-![[Pasted image 20220803170608.png]]
-![[Pasted image 20220803191418.png]]
+<a href='https://ifh.cc/v-xS16Lq' target='_blank'><img src='https://ifh.cc/g/xS16Lq.png' border='0'></a>
 
-**method 사용 효과**
-		- 전체 소스코드 양을 대폭 줄이고, 프로그램 내 중복 코드 덩어리를 제거할 수 있다.
+<a href='https://ifh.cc/v-fFA9JV' target='_blank'><img src='https://ifh.cc/g/fFA9JV.png' border='0'></a>
+</br> 
+
+### method 사용 효과	
+	- 전체 소스코드 양을 대폭 줄이고, 프로그램 내 중복 코드 덩어리를 제거할 수 있다.
 	- 중복되는 코드 덩어리를 수정할 경우, 메소드 내부에서만 수정하면 되어서 전체 코딩 속도 향상 가능
 	- 한번 코딩해놓으면, 다른 사람들에게 공유 가능
 	- method를 사용하는 사람은 method의 실제 구현 내용을 몰라도 사용 가능
-		* - 개발 생산성과 코드 재활용성 증가*
+	* - 개발 생산성과 코드 재활용성 증가*
 </br>
 
 ```java
