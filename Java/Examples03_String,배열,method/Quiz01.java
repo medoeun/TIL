@@ -22,5 +22,6 @@ public class Quiz01 {
 		} else if (arr[0] == 'C') {
 			System.out.println("컴퓨터학과 " + arr[1] + "학년 입니다.");
 		}
+
 	}
 }
